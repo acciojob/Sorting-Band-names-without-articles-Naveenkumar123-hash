@@ -1,4 +1,4 @@
-//your code here
+let touristSpots = ['The Virupaksha Temple', 'Victoria Memorial', 'Tajmahal'];
 touristSpots.sort((a, b) => {
     const articles = /^(The|A|An)\s+/i; 
 
@@ -20,4 +20,3 @@ touristSpots.forEach((spot) => {
   liElement.textContent = spot;
   ulElement.appendChild(liElement);
 });
-
